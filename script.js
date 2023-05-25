@@ -18,9 +18,6 @@ function ligar(){
     
 }
 
-function clicar(){
-    window.alert(nomes[3].dataset.item)
-}
 
 
 function mais(){
