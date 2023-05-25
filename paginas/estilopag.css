@@ -1,0 +1,23 @@
+::-webkit-scrollbar{
+    display: none;
+}
+img{
+    background-size: cover;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 1em;
+}
+div{
+    text-align: center;
+    line-height: 20px;
+}

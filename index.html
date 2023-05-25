@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas redes sociais</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body >
+    <style>
+        html{
+            image-rendering: pixelated;
+            background-image: url(imagens/background.png);
+            background-size: 25vh;
+        }
+    </style>
+    <main>
+        <section id="telefone">
+
+            <iframe  name="tela" id="tela" src="paginas/home.html" frameborder="0">Seu navegador não é compatível com iframes!</iframe> 
+
+            <div data-item="Menos brilho" class="nomes" onclick="menos()" id="diminuir"></div>
+
+            <div data-item="Mais brilho" class="nomes" onclick="mais()"  id="aumentar"></div>
+
+
+            <a data-item="Página inicial" class="nomes" id="home" href="paginas/home.html" target="tela"></a>
+
+            <div data-item="Liga/Desliga" class="nomes" onclick="ligar()" id="desligar"></div> 
+
+
+
+            <section id="apps">
+                <a href="paginas/youtube.html" target="tela"><img src="imagens/youtube-play-logo-png-5.png" alt=""></a>
+            </section>
+        </section>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
